@@ -1,0 +1,197 @@
+{
+  "channelId": "UCYP2aGg8h_9JHqNQBHNKp7w",
+  "title": "Loud G",
+  "description": "안녕하세요. 라우드 G는 게임을 소재로 한 웹드라마 / 예능 / 리얼리티 / 온라인 리그등을 제작하는 웰메이드(?) 지향  채널입니다. \n\n많은 관심 부탁드리며 구독, 알림, 좋아요 부탁드리겠습니다.\n------------------------\nHello. It is our new YT channel centered around online games. Unlike our previous YT channel which mostly uploads in-game contents, including eSports league contents, we will create more diverse, entertaining contents here.\n\nIf you like it please comment, like, share it and please dont forget to subscribe.\nWe appreciate your attention!",
+  "banner": "https://yt3.ggpht.com/F01_xAGEIdjVUKob80NrvcCd5pk4PMgROx6cpD6glxxmO9oU_7Akb4I7QxqtLBTEUGrG2HD3=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+  "thumbnails": "https://yt3.ggpht.com/a/AATXAJzM6iQu-QEfNx4Jsahh8wNU1jb_HMSA5-a_Zw=s800-c-k-c0xffffffff-no-rj-mo",
+  "cards": [
+    {
+      "order": 0,
+      "title": "성별 분포",
+      "type": "pie",
+      "datas": [
+        {
+          "name": "성별",
+          "data": [
+            { "name": "남자", "y": 70.0 },
+            { "name": "여자", "y": 30.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 1,
+      "title": "조회수",
+      "type": "line",
+      "datas": [
+        {
+          "name": "성별",
+          "data": [
+            {
+              "name": "일일조회수",
+              "data": [
+                [1588204800000, 193878],
+                [1588291200000, 172199],
+                [1588377600000, 209131],
+                [1588464000000, 465277],
+                [1588550400000, 289017],
+                [1588636800000, 200694],
+                [1588723200000, 207688],
+                [1588809600000, 252339]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "연령 분포",
+      "type": "bar",
+      "categories": [
+        "17세 이하",
+        "18세 ~ 24세",
+        "25세 ~ 34세",
+        "35세 ~ 44세",
+        "45세 ~ 54세",
+        "55세 ~ 64세",
+        "65세 이상"
+      ],
+      "datas": [
+        {
+          "type": "bar",
+          "name": "연령 분포",
+          "data": [20, 22, 22, 16, 14, 9, 2]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "연령 분포",
+      "type": "column",
+      "categories": [
+        "17세 이하",
+        "18세 ~ 24세",
+        "25세 ~ 34세",
+        "35세 ~ 44세",
+        "45세 ~ 54세",
+        "55세 ~ 64세",
+        "65세 이상"
+      ],
+      "datas": [
+        {
+          "type": "column",
+          "name": "연령 분포",
+          "data": [20, 22, 22, 16, 14, 9, 2]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "구독자",
+      "type": "column",
+      "categories": ["3월", "4월"],
+      "datas": [
+        {
+          "type": "column",
+          "name": "전월 비교(구독자)",
+          "data": [397000, 427000]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "order": 1,
+      "title": "성별 분포",
+      "viewType": "pie",
+      "datas": [
+        {
+          "type": "pie",
+          "name": "성별",
+          "data": [
+            { "name": "남자", "y": 70.0 },
+            { "name": "여자", "y": 30.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 0,
+      "title": "조회수",
+      "viewType": "line",
+      "datas": [
+        {
+          "type": "line",
+          "name": "일일조회수",
+          "data": [
+            [1588204800000, 193878],
+            [1588291200000, 172199],
+            [1588377600000, 209131],
+            [1588464000000, 465277],
+            [1588550400000, 289017],
+            [1588636800000, 200694],
+            [1588723200000, 207688],
+            [1588809600000, 252339]
+          ]
+        }
+      ]
+    },
+
+    {
+      "order": 3,
+      "title": "연령 분포",
+      "viewType": "bar",
+      "categories": [
+        "17세 이하",
+        "18세 ~ 24세",
+        "25세 ~ 34세",
+        "35세 ~ 44세",
+        "45세 ~ 54세",
+        "55세 ~ 64세",
+        "65세 이상"
+      ],
+      "datas": [
+        {
+          "type": "bar",
+          "name": "연령 분포",
+          "data": [20, 22, 22, 16, 14, 9, 2]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "연령 분포",
+      "viewType": "column",
+      "categories": [
+        "17세 이하",
+        "18세 ~ 24세",
+        "25세 ~ 34세",
+        "35세 ~ 44세",
+        "45세 ~ 54세",
+        "55세 ~ 64세",
+        "65세 이상"
+      ],
+      "datas": [
+        {
+          "type": "column",
+          "name": "연령 분포",
+          "data": [20, 22, 22, 16, 14, 9, 2]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "구독자",
+      "viewType": "column",
+      "categories": ["3월", "4월"],
+      "datas": [
+        {
+          "type": "column",
+          "name": "전월 비교(구독자)",
+          "data": [397000, 427000]
+        }
+      ]
+    }
+  ]
+}

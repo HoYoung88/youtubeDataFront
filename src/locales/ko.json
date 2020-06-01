@@ -1,0 +1,12 @@
+{
+  "message": {
+    "success": "{msg} 성공"
+  },
+  "label": {
+    "common": {
+      "views": "조회수",
+      "estimatedMinutesWatched": "시청시간",
+      "subscribers": "구독자"
+    }
+  }
+}
