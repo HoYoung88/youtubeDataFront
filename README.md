@@ -1,4 +1,4 @@
-# front-yt-dashboard
+# youtubeDataFront
 
 ## Project setup
 ```
