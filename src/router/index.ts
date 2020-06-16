@@ -47,13 +47,13 @@ const routes: Array<RouteConfig> = [
   //     import(/* webpackChunkName: "videos" */ '@/views/sample/Chart.vue'),
   //   props: true,
   // },
-  // {
-  //   path: '/sample',
-  //   name: 'Char2t',
-  //   component: () =>
-  //     import(/* webpackChunkName: "videos" */ '@/views/sample/TabSample.vue'),
-  //   props: true,
-  // },
+  {
+    path: '/sample',
+    name: 'Char2t',
+    component: () =>
+      import(/* webpackChunkName: "videos" */ '@/views/sample/Sample2.vue'),
+    props: true,
+  },
   {
     path: '*',
     name: 'error',

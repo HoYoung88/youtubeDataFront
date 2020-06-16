@@ -72,10 +72,16 @@ export default class AnalyticsIndex extends Vue {
   asyncChannelData!: (channelId: string) => Promise<void>;
 
   @Action('asyncPlaylistData', { namespace: 'playlist' })
-  asyncPlaylistData!: (channelId: string) => Promise<void>;
+  asyncPlaylistData!: (params: {
+    channelId: string;
+    page: number;
+  }) => Promise<void>;
 
   @Action('asyncVideoData', { namespace: 'videos' })
-  asyncVideoData!: (channelId: string) => Promise<void>;
+  asyncVideoData!: (params: {
+    channelId: string;
+    page: number;
+  }) => Promise<void>;
 
   @Action('showSnackbar', { namespace: 'snackbar' })
   showSnackbar!: (option: SnackbarOpt) => void;
@@ -83,8 +89,8 @@ export default class AnalyticsIndex extends Vue {
   async beforeMount() {
     try {
       await this.asyncChannelData(this.channelId);
-      await this.asyncPlaylistData(this.channelId);
-      await this.asyncVideoData(this.channelId);
+      await this.asyncPlaylistData({ channelId: this.channelId, page: 1 });
+      await this.asyncVideoData({ channelId: this.channelId, page: 1 });
     } catch (e) {
       this.showSnackbar({
         color: 'error',

@@ -21,13 +21,17 @@ const mutations: MutationTree<VideosState> = {
 };
 
 const actions: ActionTree<VideosState, RootState> = {
-  asyncVideoData: async (context, channelId) => {
+  asyncVideoData: async (
+    context,
+    params: { channelId: string; page: number }
+  ) => {
+    const { channelId, page } = params;
     context.dispatch('progress/onShowProgress', true, { root: true });
-    context.commit('removeVideos');
-    const { data } = await api.vidoes(channelId);
-    // context.commit('setVideo', data);
-    data.forEach((item, index) => {
-      // if (index <= 8) context.commit('setVideoItem', item);
+
+    if (page == 1) context.commit('removeVideos');
+
+    const { data } = await api.vidoes(channelId, { page });
+    data.data.forEach((item, index) => {
       context.commit('setVideoItem', item);
     });
     context.dispatch('progress/onShowProgress', false, { root: true });

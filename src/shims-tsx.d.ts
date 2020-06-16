@@ -12,6 +12,13 @@ declare global {
   }
 
   namespace Api {
+    interface Response<T> {
+      code: number;
+      message: string;
+      channelId: string;
+      data: T;
+    }
+
     type Thumbnails = {
       [key in 'default' | 'medium' | 'high' | 'standard' | 'maxres']: {
         url: string;
@@ -20,12 +27,19 @@ declare global {
       };
     };
 
-    interface ChannelInfo {
-      channelId: string;
+    interface CommonType {
       title: string;
-      banner: string;
-      thumbnails: Thumbnails;
       description: string;
+      thumbnails: Thumbnails;
+      publishedAt: Date;
+      views: number;
+      estimatedMinutesWatched: number;
+      subscribers: number;
+    }
+
+    interface ChannelInfo extends CommonType {
+      channelId: string;
+      banner: string;
       cards: ChannelItem[];
     }
 
@@ -45,25 +59,15 @@ declare global {
       subscribers: chartDataType[];
     }
 
-    interface PlaylistItem {
-      views: number;
-      estimatedMinutesWatched: number;
-      subscribersGained: number;
-      title: string;
-      description: string;
+    interface PlaylistItem extends CommonType {
       channelId: string;
-      channelTitle: string;
       playlistId: string;
       stat: StatItem;
     }
 
-    interface VideoItem {
+    interface VideoItem extends CommonType {
       videoId: string;
-      title: string;
-      viewCount: number;
-      likeCount: number;
-      publishedAt: Date;
-      thumbnails: Thumbnails;
+      duration: string;
     }
   }
 }

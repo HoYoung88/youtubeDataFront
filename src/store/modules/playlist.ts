@@ -25,11 +25,17 @@ const mutations: MutationTree<PlaylistState> = {
 };
 
 const actions: ActionTree<PlaylistState, RootState> = {
-  asyncPlaylistData: async (context, channelId: string) => {
+  asyncPlaylistData: async (
+    context,
+    params: { channelId: string; page: number }
+  ) => {
+    const { channelId, page } = params;
     context.dispatch('progress/onShowProgress', true, { root: true });
-    context.commit('removePlaylist');
-    const { data } = await api.playlist(channelId);
-    context.commit('setPlaylist', data);
+    if (page == 1) context.commit('removePlaylist');
+    const { data } = await api.playlist(channelId, { page });
+    data.data.forEach((item, index) => {
+      context.commit('setPlaylistItem', item);
+    });
     context.dispatch('progress/onShowProgress', false, { root: true });
   },
 };

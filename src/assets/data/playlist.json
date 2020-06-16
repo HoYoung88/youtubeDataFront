@@ -1,106 +1,353 @@
-[
-  {
-    "playlistId": "PLqlUleMK09pwLDP4WdxORzsaSR_2rQyX1",
-    "title": "왜냐맨",
-    "itemCount": 62,
-    "views": 54840903,
-    "estimatedMinutesWatched": 248625595,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pzss1hgOSIiQrCM-AQJwbHP",
-    "title": "소확잼 (소소하지만 확실한 재미)",
-    "itemCount": 47,
-    "views": 9400342,
-    "estimatedMinutesWatched": 30709588,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pzAjWQ9GrPaOWRCd_cqKZgW",
-    "title": "[웹드라마] 오늘일일 (어쩌면 오늘 당신에게 일어날 일)",
-    "itemCount": 7,
-    "views": 5445151,
-    "estimatedMinutesWatched": 18805875,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pyi8g-my5e5osj3tRXyhW8m",
-    "title": "죽어야 사는 여자",
-    "itemCount": 17,
-    "views": 3242800,
-    "estimatedMinutesWatched": 15487253,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pz0ySBl1x4BHxHs7bMY4TSK",
-    "title": "친구가 필요해",
-    "itemCount": 6,
-    "views": 2290683,
-    "estimatedMinutesWatched": 9131691,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pxRUg8GrxU2OtMdyQOjtcVt",
-    "title": "피킷리스트",
-    "itemCount": 24,
-    "views": 2083727,
-    "estimatedMinutesWatched": 5565964,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pwJiNFW2-bPoYavgvk2ygdF",
-    "title": "스낵콘텐츠",
-    "itemCount": 5,
-    "views": 319966,
-    "estimatedMinutesWatched": 796414,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pzpVwK3sK__8YO7pPdoyt8x",
-    "title": "[웹드라마] 우리에게 (아름다웠던 나의 우리에게)",
-    "itemCount": 6,
-    "views": 222264,
-    "estimatedMinutesWatched": 509897,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09py2yvlRa6uTIFY34_HPNUZh",
-    "title": "해적단",
-    "itemCount": 6,
-    "views": 121123,
-    "estimatedMinutesWatched": 312145,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pzqm4OmR9msX6lchMp-rpKu",
-    "title": "자체발광 (자체적으로 만든 발로만든 광고)",
-    "itemCount": 7,
-    "views": 188209,
-    "estimatedMinutesWatched": 233288,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pwXbwBGjDKBGnjOmcppf3gt",
-    "title": "겜성토론",
-    "itemCount": 2,
-    "views": 33987,
-    "estimatedMinutesWatched": 61387,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pySlj1xm1bfgTAPtxWJHn_q",
-    "title": "드림컴트루",
-    "itemCount": 5,
-    "views": 9559,
-    "estimatedMinutesWatched": 15202,
-    "type": "P"
-  },
-  {
-    "playlistId": "PLqlUleMK09pzb1E2jPnRzmzdmSDvtN2TW",
-    "title": "TEN (The Esports Night)",
-    "itemCount": 8,
-    "views": 0,
-    "estimatedMinutesWatched": 0,
-    "type": "P"
-  }
-]
+{
+  "code": 200,
+  "message": "OK",
+  "channelId": "UCYP2aGg8h_9JHqNQBHNKp7w",
+  "data": [
+    {
+      "title": "왜냐맨",
+      "description": "시즌4 \"삼십세들\"\n2020년, 삼십세가 된 민아와 민철이",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DVGkj0_hpAU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DVGkj0_hpAU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DVGkj0_hpAU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DVGkj0_hpAU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DVGkj0_hpAU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-01-04T11:37:23.000+0900",
+      "views": 10883038,
+      "estimatedMinutesWatched": 50673692,
+      "subscribers": 16057,
+      "playlistId": "PLqlUleMK09pwLDP4WdxORzsaSR_2rQyX1"
+    },
+    {
+      "title": "친구가 필요해",
+      "description": "게임 친구 만들러 유키카가 왔다! 유키카랑 친구 할 사람??",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/FyqCCfyFXdw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FyqCCfyFXdw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FyqCCfyFXdw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FyqCCfyFXdw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/FyqCCfyFXdw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2020-03-19T17:19:13.000+0900",
+      "views": 3924027,
+      "estimatedMinutesWatched": 16230366,
+      "subscribers": 4823,
+      "playlistId": "PLqlUleMK09pz0ySBl1x4BHxHs7bMY4TSK"
+    },
+    {
+      "title": "소확잼 (소소하지만 확실한 재미)",
+      "description": "김수현, 김효진의 소소한 놀이 대전! 두 아나운서의 거침없는 반전 매력을 만나다!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Tz-_-XtyrxQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Tz-_-XtyrxQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Tz-_-XtyrxQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Tz-_-XtyrxQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Tz-_-XtyrxQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-01-17T17:04:40.000+0900",
+      "views": 2075522,
+      "estimatedMinutesWatched": 7167929,
+      "subscribers": 1977,
+      "playlistId": "PLqlUleMK09pzss1hgOSIiQrCM-AQJwbHP"
+    },
+    {
+      "title": "죽어야 사는 여자",
+      "description": "나미춘 윤태진 아나운서의 힐링 게임 콘텐츠 [죽어야 사는 여자]",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/lZ2To4yVkSQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lZ2To4yVkSQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lZ2To4yVkSQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lZ2To4yVkSQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/lZ2To4yVkSQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-12-20T16:00:01.000+0900",
+      "views": 745858,
+      "estimatedMinutesWatched": 4069614,
+      "subscribers": 332,
+      "playlistId": "PLqlUleMK09pyi8g-my5e5osj3tRXyhW8m"
+    },
+    {
+      "title": "[웹드라마] 오늘일일 (어쩌면 오늘 당신에게 일어날 일)",
+      "description": "게임을 통해 서로를 더 알아가는 청춘남녀들의 러브스토리 “나… 누나 좋아하는 것 같아요.”",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/l5P8Qst1elE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/l5P8Qst1elE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/l5P8Qst1elE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/l5P8Qst1elE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/l5P8Qst1elE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-01-04T11:39:15.000+0900",
+      "views": 125291,
+      "estimatedMinutesWatched": 362493,
+      "subscribers": 675,
+      "playlistId": "PLqlUleMK09pzAjWQ9GrPaOWRCd_cqKZgW"
+    },
+    {
+      "title": "피킷리스트",
+      "description": "세상 모든 특별한 PC방을 리뷰합니다, 피~킷 리스트",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LfH_joHxhUg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LfH_joHxhUg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LfH_joHxhUg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "publishedAt": "2019-07-18T17:43:28.000+0900",
+      "views": 25032,
+      "estimatedMinutesWatched": 62842,
+      "subscribers": 39,
+      "playlistId": "PLqlUleMK09pxRUg8GrxU2OtMdyQOjtcVt"
+    },
+    {
+      "title": "스낵콘텐츠",
+      "description": "라우드G 자체제작 엔터 게임 콘텐츠",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hzknWQmfupY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hzknWQmfupY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hzknWQmfupY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hzknWQmfupY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "publishedAt": "2019-01-04T11:38:40.000+0900",
+      "views": 17204,
+      "estimatedMinutesWatched": 46584,
+      "subscribers": 31,
+      "playlistId": "PLqlUleMK09pwJiNFW2-bPoYavgvk2ygdF"
+    },
+    {
+      "title": "[웹드라마] 우리에게 (아름다웠던 나의 우리에게)",
+      "description": "찐따였던 동창이 존잘남이 되어 나타났다?! 전하지 못했던 과거의 마음, 우리는 이어질 수 있을까?",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Xx3DGH1KZTk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Xx3DGH1KZTk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Xx3DGH1KZTk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Xx3DGH1KZTk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Xx3DGH1KZTk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-05-23T17:02:13.000+0900",
+      "views": 7671,
+      "estimatedMinutesWatched": 14323,
+      "subscribers": 9,
+      "playlistId": "PLqlUleMK09pzpVwK3sK__8YO7pPdoyt8x"
+    },
+    {
+      "title": "자체발광 (자체적으로 만든 발로만든 광고)",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/kJuTjrE71G8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kJuTjrE71G8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kJuTjrE71G8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kJuTjrE71G8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/kJuTjrE71G8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-01-17T17:05:27.000+0900",
+      "views": 6917,
+      "estimatedMinutesWatched": 13554,
+      "subscribers": 2,
+      "playlistId": "PLqlUleMK09pzqm4OmR9msX6lchMp-rpKu"
+    },
+    {
+      "title": "해적단",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KhQns0_IHxs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KhQns0_IHxs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KhQns0_IHxs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KhQns0_IHxs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KhQns0_IHxs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "publishedAt": "2019-01-17T17:08:35.000+0900",
+      "views": 3017,
+      "estimatedMinutesWatched": 6967,
+      "subscribers": 11,
+      "playlistId": "PLqlUleMK09py2yvlRa6uTIFY34_HPNUZh"
+    }
+  ],
+  "timestamp": "2020-06-16 12:34:43"
+}
