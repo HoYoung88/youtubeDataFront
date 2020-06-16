@@ -1,6 +1,5 @@
 import querystring from 'querystring';
 import axios, { AxiosRequestConfig, AxiosError, AxiosResponse } from 'axios';
-
 const { group, groupEnd, table, log } = console;
 const isProductionMode: boolean = process.env.NODE_ENV === 'production';
 const axiosRequestConfig: AxiosRequestConfig = {
@@ -29,11 +28,9 @@ const loggerAxiosData = (config: AxiosResponse) => {
 const http = axios.create(axiosRequestConfig);
 
 http.interceptors.request.use(
-  (config) =>
-    new Promise((resolve) => {
-      resolve(config);
-    }),
+  (config) => new Promise((resolve) => resolve(config)),
   (error: AxiosError) => {
+    error.code = error.code === undefined ? '503' : error.code;
     if (!isProductionMode) loggerAxiosError(error);
     return Promise.reject(error);
   }
@@ -46,6 +43,7 @@ http.interceptors.response.use(
       resolve(config);
     }),
   (error: AxiosError) => {
+    error.code = error.code === undefined ? '503' : error.code;
     if (!isProductionMode) loggerAxiosError(error);
     return Promise.reject(error);
   }

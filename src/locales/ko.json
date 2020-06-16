@@ -1,6 +1,7 @@
 {
   "message": {
-    "success": "{msg} 성공"
+    "success": "{msg} 성공",
+    "ERROR_9999": "ERROR 9999"
   },
   "label": {
     "common": {

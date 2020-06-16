@@ -91,13 +91,13 @@ export default class AnalyticsIndex extends Vue {
       await this.asyncChannelData(this.channelId);
       await this.asyncPlaylistData({ channelId: this.channelId, page: 1 });
       await this.asyncVideoData({ channelId: this.channelId, page: 1 });
+      this.loading = false;
     } catch (e) {
       this.showSnackbar({
         color: 'error',
-        text: 'Axios Error',
+        text: this.$t('message.ERROR_9999').toString(),
       });
     }
-    this.loading = false;
   }
 }
 </script>
