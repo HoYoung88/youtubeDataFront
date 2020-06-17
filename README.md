@@ -1,4 +1,4 @@
-# youtubeDataFront
+# youtubeDataFront with Vuejs
 
 ## Project setup
 ```
